@@ -1,0 +1,47 @@
+.two-blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    border: 2px solid red; 
+    background-color: #F9F9F6;
+    
+
+}
+
+.hello-friend {
+    height: 500px;
+    width: 300px;
+    border: 2px solid red; 
+}
+
+input {
+    background-color: lightgrey;
+}
+
+.forgot-password {
+    border: none;
+    background-color: white;
+}
+
+.log-in {
+    text-transform: uppercase;
+    color: white;
+    background-color: #9E508B;
+}
+
+.long-field {
+    width: 260px;
+    height: 20px;
+}
+
+.hello-friend {
+    background-image: linear-gradient(to bottom right, #5D0F4A, #9E508B);
+    /*background-color: #85498D;*/
+}
