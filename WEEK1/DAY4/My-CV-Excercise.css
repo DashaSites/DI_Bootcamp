@@ -1,0 +1,29 @@
+.navigation-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.navigation-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+body {
+    background-color: lightgray;
+    position: relative;
+
+}
+
+h2, li {
+    color: darkgreen;
+}
+
+section {
+    padding-left: 10px;
+}
+
+button {
+    margin-left: 80px;
+}
