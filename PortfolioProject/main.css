@@ -1,0 +1,43 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.fixed-top {
+
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+main {
+    padding-top: 8%;
+}
+
+.navbar {
+    background: #417D80;
+}
+
+
+div.container-fluid {
+    color: #417D80; 
+} 
+
+button {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #417D80;
+}
+
+.navbar-collapse {
+    padding-top: 5px;
+}
+
+
+
+
