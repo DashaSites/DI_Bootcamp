@@ -1,0 +1,34 @@
+.fas {
+    position: relative;
+    left: 5px;
+}
+
+.products-link {
+    position: absolute;
+    right: 20px;
+}
+
+.login-link {
+    position: absolute;
+    right: 100px;
+}
+
+.signup-link {
+    position: absolute;
+    right: 165px;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;  
+}
+
+.footer-name {
+    color: darkslateblue;
+    font-size: 22px;
+}
+
+.footer-developer {
+    color: darkslateblue;
+    font-size: 22px;
+}

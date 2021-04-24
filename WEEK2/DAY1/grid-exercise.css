@@ -1,0 +1,29 @@
+.flex-container {
+    width: 600px;
+    height: 500px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.flex-item-first {
+    height: 100px;
+    background-color: lightblue;
+    align-self: stretch;
+}
+
+.flex-item-second {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    align-self: center;
+
+}
+
+.flex-item-third {
+    height: 100px;
+    background-color: lightblue;
+    align-self: stretch;
+}

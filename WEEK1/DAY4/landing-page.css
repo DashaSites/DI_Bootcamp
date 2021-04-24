@@ -8,17 +8,21 @@
     flex-direction: column;
     align-items: center;
     height: 500px;
-    width: 300px;
-    border: 2px solid red; 
+    width: 350px;
     background-color: #F9F9F6;
-    
+    color: grey;
 
 }
 
 .hello-friend {
     height: 500px;
-    width: 300px;
-    border: 2px solid red; 
+    width: 350px;
+    background-image: linear-gradient(to bottom right, #5D0F4A, #9E508B);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 input {
@@ -28,6 +32,7 @@ input {
 .forgot-password {
     border: none;
     background-color: white;
+    color: grey;
 }
 
 .log-in {
@@ -39,9 +44,12 @@ input {
 .long-field {
     width: 260px;
     height: 20px;
+    border: none;
 }
 
-.hello-friend {
-    background-image: linear-gradient(to bottom right, #5D0F4A, #9E508B);
-    /*background-color: #85498D;*/
+.register-button {
+    border-radius: 12px;
+    background-color: #9E508B;
+    border: 1px solid white; 
+    color: white;
 }
