@@ -1,0 +1,145 @@
+/* I HAVE QUESTIONS REGARDING TASKS 2 and 3 (LINK TO THE EXERCISE: http://learn.di-learning.com/courses/collection/34/course/117/section/281/chapter/1600). THEY READ: 
+
+2) The landing page must be responsive, decide which of the following methods is best to use in this case:
+Media Queries
+Flexbox
+Grid
+
+3) For this landing page, when viewing the landing page on a mobile device, the 3 blocks should be displayed one on top of the other.
+
+I THINK I SHOULD USE MEDIAQUERIES BUT I'M NOT SURE HOW TO SET ALL THE RULES. 
+SHOULD I SET ALL CSS-RULE SETS TWICE? FIRST TIME FOR COMPUTERS, AS IT FOLLOWS NOW, AND THE SECOND TIMES - FOR MOBILE DEVISES,
+WHICH WOULD BE 
+
+@media only screen and (max-width: 480px) {
+    REDEFINE ALL THE CSS RULES, FOR THE FLEXBOXES TO BE IN ONE COLUMN, INSTEAD OF 3?
+}
+
+*/
+
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1599535126697-bae4359b4088?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2984&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 70px;
+}
+
+.about-numbers div {
+    height: 80px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.about-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-numbers-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 11px;
+    margin-bottom: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0267BB;
+}
+
+.about-numbers-item p {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.about-numbers-item-text {
+    text-transform: uppercase;
+    color: #505254;
+    font: 2px;
+    font-weight: bold;
+}
+
+.citations {
+    border: 1px solid red;
+}
+
+.citations-block {
+    height: 380px;
+    width: 1400px;
+    border: 1px solid red;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.user-citation {
+    width: 420px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.user-citation-middle {
+    align-self: flex-end;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.user-details p {
+    color: white;
+}
+
+.user-details {
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+}
+
+.user-details-tina {
+    background-color: #FF8379;
+}
+
+.user-details-corrine {
+    background-color: #7969C3;
+}
+
+.user-details-chris {
+    background-color:#6EA4B9;
+}
+
+.user-citation-text {
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.portrait {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: alsolute; /*I'VE TRIED TO SET POSITION: ABSOLUTE TO THE 3 PICTURES, BUT IT DOESN'T WORK. CAN PLEASE YOU EXPLAIN, WHY?*/
+}
+
