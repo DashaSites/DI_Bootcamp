@@ -80,7 +80,9 @@ footer {
 
   footer {
     position: fixed;
-    bottom: 30px; 
-    left: 645px; 
-    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
   }

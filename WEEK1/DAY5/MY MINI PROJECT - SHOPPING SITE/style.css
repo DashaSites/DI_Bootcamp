@@ -43,8 +43,10 @@ h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 30px; 
-    left: 645px; 
-    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
   }
