@@ -79,7 +79,7 @@ footer {
   }
 
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 30px; 
     left: 645px; 
     font-weight: bold;
