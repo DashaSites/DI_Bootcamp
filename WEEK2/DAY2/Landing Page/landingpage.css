@@ -88,8 +88,13 @@ h3 {
     align-items: flex-start;
 }
 
+.user-citation-text-container {
+    height: 140px;
+}
+
 .user-citation {
     width: 420px;
+    height: 500px;
     /* border: 1px solid red;*/
     display: flex;
     flex-direction: column;
@@ -114,6 +119,8 @@ h4 {
     /*border: 1px solid red;*/
     display: inline-block;
     text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .user-details-tina {
@@ -131,9 +138,9 @@ h4 {
 .user-citation-text {
     background-color: white;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-left: 20px;
 }
 
@@ -142,8 +149,32 @@ h4 {
 }
 
 .portrait {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+    top: 450px;
+    left: 180px;
     border-radius: 50%;
-    margin: 0 auto;
-    position: alsolute; /*I'VE TRIED TO SET POSITION: ABSOLUTE TO THE 3 PICTURES, BUT IT DOESN'T WORK. CAN PLEASE YOU EXPLAIN, WHY?*/
+}
+
+.portrait-second {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+    top: 330px;
+    left: 650px;
+    border-radius: 50%;
+}
+
+.portrait-third {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+    top: 450px;
+    left: 1120px;
+    border-radius: 50%;
 }
 
